@@ -1,8 +1,6 @@
  # Alexander Vinokurov
 ## Junior Front-end developer
 
----
-
 ### Contact me:
 
   
