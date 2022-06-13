@@ -1,13 +1,62 @@
 *{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html,body{
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }
-body{
+.container{
+	width: 1260px;
+	margin: 0 auto;
+}
+.header{
+	display: flex;
+	background:#303032;
+}
+.header>img{
+	width: 437px;
+	height: 437px;
+}
+.name{
+	margin-top: 42px;
+	margin-bottom: 37px;
+	width: 659px;
+	height: 135px;
+	background:#329FA2;
+	color:#fff;
+	padding-left: 42px;
+}
+.name h1{
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 53.91px;
+	padding-top: 24px;
+}
+.name h2{
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 32.81px;
+}
+.contact{
+	display: flex;
+	align-items: center;
+	margin-left: 31px;
+	margin-bottom: 32px;
 
 }
-h1{
+.contact img{
+	margin-right:15px;
+	width: 31px;
 
 }
-.heading{
-	
+.contact p{
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28.13px;
 }
