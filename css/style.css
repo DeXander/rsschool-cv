@@ -60,3 +60,49 @@ html,body{
 	font-size: 24px;
 	line-height: 28.13px;
 }
+.main-section{
+	display: flex;
+}
+.education{
+	margin-bottom: 32px;
+	width: 437px;
+}
+.education>p{
+	margin-left: 31px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28.13px;
+}
+hr{
+	margin-top: 15px;
+}
+.college{
+	display: flex;
+	justify-content: space-between;
+}
+
+h3{
+	margin-top: 28px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 49.22px;
+	margin-left: 31px;
+	margin-bottom: 42px;
+}
+h4{
+	margin-left: 31px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32.81px;
+
+}
+.experience{
+	margin-bottom: 32px;
+	width: 437px;
+}
+.skill-block{
+	margin-left: 31px;
+}
