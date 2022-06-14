@@ -1,13 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>New basic site</title>device-width
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>ALEXANDER VINOKUROV (CV)</title>
 </head>
 <body>
-	<h1 class="heading">It works!</h1>
+	<header class="container header">
+		<img src="/assets/avatar.jpg" alt="avatar" class="avatar">
+		<div class="info">
+			<div class="name">
+					<h1 id="name">ALEXANDER VINOKUROV</h1>
+					<h2>Junior Frontend Developer</h2>
+			</div>
+			<div class="contact">
+				<img src="/assets/location.svg" alt="location">
+				<p>Moscow, Russia</p>
+			</div>
+			<div class="contact">
+				<img src="/assets/phone.svg" alt="phone">
+				<p>+7(915)000-00-00</p>
+			</div>
+			<div class="contact">
+				<img src="/assets/email.svg" alt="email">
+				<p>vinokurovaleksandr644@gmail.com</p>
+			</div>
+		</div>
+	</header>
+	<main class="container main-section">
+		<section class="education">
+			<h3>EDUCATION</h3>
+			<div class="college">
+				<h4>COLLEGE</h4>
+				<h4>2005-2008</h4>
+			</div>
+			<p>Management</p>
+			<p>Economic</p>
+			<hr>
+			<h3>ENGLISH LEVEL</h3>
+			<div class="english">
+				<h4>ELEMENTARY</h4>
+				<h4>A1</h4>
+			</div>
+			<hr>
+			<h3>SKILLS</h3>
+			<div class="skill-block">
+				<img src="/assets/vscode.svg" alt="vscode">
+				<img src="/assets/html.svg" alt="html">
+				<img src="/assets/css.svg" alt="css">
+				<img src="/assets/js.svg" alt="js">
+				<img src="/assets/windows.svg" alt="windows">
+				<img src="/assets/ubuntu.svg" alt="ubuntu">
+				<img src="/assets/figma.svg" alt="figma">
+			</div>
+			<hr>
+			<h3>CODE EXAMPLE</h3>
+			<p>
+				<code>
+					function multiply (a,b){<br>
+					return a * b<br>
+					}<br>
+					multiply()<br>
+				</code>
+			</p>
+		</section>
+		<section class="experience">
+			<h3>EXPERIENCE</h3>
+			<div class="work">
+				<h4>WEBSITE ADMINISTRATOR</h4>
+				<p>Content management</p>
+				<p>Improvement of the site functionality</p>
+				<hr>
+				<h4>TECHNICAL DIRECTOR OF THE VIDEO STUDIO</h4>
+				<p>Production management</p>
+				<hr>
+				<h4>SALES MANAGER</h4>
+				<p>Electronics sales</p>
+				<p>Service</p>
+				<hr>
+			</div>
+			<h3>MY WORKS</h3>
+			<div class="work-examples">
+				<h4>LANDING PAGE</h4>
+				<p><a href="github.com/DeXander/Tjam_site/tree/master">github.com/DeXander/Tjam_site/tree/master</a></p>
+				<hr>
+				<h4>MY PERSONAL CV</h4>
+				<p><a href="github.com/DeXander/rsschool-cv/tree/rsschool-cv-html">github.com/DeXander/rsschool-cv/tree/rsschool-cv-html</a></p>
+				<hr>
+			</div>
+			<h3>LINKS</h3>
+			<div class="links">
+				<img src="/assets/github.svg" alt="github">
+				<p>DeXander</p>
+				<img src="/assets/discord.svg" alt="discord">
+				<p>DeXander#6036</p>
+			</div>
+		</section>
+	</main>
+	<footer class="container footer">
+		<nav>
+			<ul>
+				<li><a href="#name">Return to header 👆</a></li>
+			</ul>
+		</nav>
+	</footer>
 </body>
 </html>
