@@ -76,6 +76,7 @@ html,body{
 }
 hr{
 	margin-top: 15px;
+	width: 100%;
 }
 .college{
 	display: flex;
@@ -101,8 +102,39 @@ h4{
 }
 .experience{
 	margin-bottom: 32px;
-	width: 437px;
+	width: 824px;
 }
+
 .skill-block{
 	margin-left: 31px;
+}
+.work>h4{
+	margin-top: 25px;
+	margin-left: 0;
+}
+.work>p{
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28.13px;
+}
+.work{
+	margin-left: 31px;
+}
+.work-examples>p{
+margin-left: 31px;
+}
+.links{
+	margin-left: 31px;
+	display: flex;
+	align-items:center;
+}
+.links img, p{
+	margin-right: 45px;
+}
+.links p{
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 44.53px;
 }
