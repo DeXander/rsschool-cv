@@ -1,0 +1,164 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 1260px;
+	margin: 0 auto;
+}
+.header{
+	display: flex;
+	background:#303032;
+}
+.header>img{
+	width: 437px;
+	height: 437px;
+}
+.name{
+	margin-top: 42px;
+	margin-bottom: 37px;
+	width: 659px;
+	height: 135px;
+	background:#329FA2;
+	color:#fff;
+	padding-left: 42px;
+}
+.name h1{
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 53.91px;
+	padding-top: 24px;
+}
+.name h2{
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 32.81px;
+}
+.contact{
+	display: flex;
+	align-items: center;
+	margin-left: 31px;
+	margin-bottom: 32px;
+
+}
+.contact img{
+	margin-right:15px;
+	width: 31px;
+
+}
+.contact p{
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28.13px;
+}
+.main-section{
+	display: flex;
+}
+.education{
+	margin-bottom: 32px;
+	width: 437px;
+}
+.education>p{
+	margin-left: 31px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28.13px;
+}
+hr{
+	margin-top: 15px;
+	width: 100%;
+}
+.college{
+	display: flex;
+	justify-content: space-between;
+}
+.english{
+	display: flex;
+	justify-content: space-between;
+}
+
+h3{
+	margin-top: 28px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 49.22px;
+	margin-left: 31px;
+	margin-bottom: 42px;
+}
+h4{
+	margin-left: 31px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32.81px;
+
+}
+.experience{
+	margin-bottom: 32px;
+	width: 824px;
+}
+
+.skill-block{
+	margin-left: 31px;
+}
+.work>h4{
+	margin-top: 25px;
+	margin-left: 0;
+}
+.work>p{
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28.13px;
+}
+.work{
+	margin-left: 31px;
+}
+.work-examples>p{
+margin-left: 31px;
+}
+.links{
+	margin-left: 31px;
+	display: flex;
+	align-items:center;
+}
+.links img, p{
+	margin-right: 45px;
+}
+.links p{
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 44.53px;
+}
+.footer{
+	height: 135px;
+	background:#303032;
+}
+ul{
+	padding-top: 45px;
+	list-style: none;
+	text-align: center;
+
+}
+.footer a{
+	padding-top: 25px;
+	text-decoration: none;
+	color:#fff;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32.81px;
+}
