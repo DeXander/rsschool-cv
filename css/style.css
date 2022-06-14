@@ -7,6 +7,7 @@ html,body{
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }
+
 .container{
 	width: 1260px;
 	margin: 0 auto;
@@ -137,4 +138,23 @@ margin-left: 31px;
 	font-weight: 600;
 	font-size: 38px;
 	line-height: 44.53px;
+}
+.footer{
+	height: 135px;
+	background:#303032;
+}
+ul{
+	padding-top: 45px;
+	list-style: none;
+	text-align: center;
+
+}
+.footer a{
+	padding-top: 25px;
+	text-decoration: none;
+	color:#fff;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32.81px;
 }
